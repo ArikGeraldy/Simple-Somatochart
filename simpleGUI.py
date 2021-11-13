@@ -522,7 +522,7 @@ class Ui_MenuOutput(object):
 
     def retranslateUi(self, MenuOutput):
         _translate = QtCore.QCoreApplication.translate
-        MenuOutput.setWindowTitle(_translate("MenuOutput", "MainWindow"))
+        MenuOutput.setWindowTitle(_translate("MenuOutput", "Output Menu"))
         self.labelTitle2.setText(_translate("MenuOutput", "Somatotype Result"))
         self.labelMesoResult.setText(_translate("MenuOutput", ": "+str(round(mesomorph,2))))
         self.labelMesomorph.setText(_translate("MenuOutput", "Mesomorph"))

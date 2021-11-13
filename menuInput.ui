@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menuInput</class>
+ <widget class="QMainWindow" name="menuInput">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>376</width>
+    <height>546</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" colspan="2">
+     <widget class="QLabel" name="labelTitle">
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>21</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <strikeout>false</strikeout>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>Antrophometry Data</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>356</width>
+         <height>395</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="6" column="0">
+         <widget class="QLabel" name="labelSubscapularSF">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Subscapular Skinfold</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="labelMedialCalfSF">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Medial Calf Skinfold</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="lineEditHeight">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="0">
+         <widget class="QLabel" name="labelCalfG">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Calf Girth</string>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="5">
+         <widget class="QLabel" name="labelcm5">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>cm</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="labelHeight">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Height</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="5">
+         <widget class="QLabel" name="labelmm3">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>mm</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="1">
+         <widget class="QLineEdit" name="lineEditTHumerus">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="5">
+         <widget class="QLabel" name="labelcm3">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>cm</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="1">
+         <widget class="QLineEdit" name="lineEditSupraspinaleSF">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1">
+         <widget class="QLineEdit" name="lineEditBoFemur">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="5">
+         <widget class="QLabel" name="labelmm4">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>mm</string>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="1">
+         <widget class="QLineEdit" name="lineEditCalfG">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEditTricepSF">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="5">
+         <widget class="QLabel" name="labelmm">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>mm</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="0">
+         <widget class="QLabel" name="labelLTricepG">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Tricep Girth</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="5">
+         <widget class="QLabel" name="labelcm">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>cm</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="5">
+         <widget class="QLabel" name="labelcm4">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>cm</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="0">
+         <widget class="QLabel" name="labelSupraspinaleSF">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Supraspinale Skinfold</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="labelTricepSF">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Tricep Skinfold</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QLineEdit" name="lineSubscapularSF">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="1">
+         <widget class="QLineEdit" name="lineEditTricepG">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLineEdit" name="lineEditMedialCalfSF">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="0">
+         <widget class="QLabel" name="labelBoFemur">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Breadth of Femur</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="0">
+         <widget class="QLabel" name="labelBoHumerus">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Breadth of Humerus</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="5">
+         <widget class="QLabel" name="labelmm2">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>mm</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="5">
+         <widget class="QLabel" name="labelcm2">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>cm</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="labelWeight">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Weight</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="lineEditWeight">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="5">
+         <widget class="QLabel" name="labelkg">
+          <property name="font">
+           <font>
+            <family>Open Sans</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>kg</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QPushButton" name="buttonProcess">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Process</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>376</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

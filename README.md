@@ -1,5 +1,10 @@
 # Simple-Somatochart
 A GUI to calculate [Somatotype](https://en.wikipedia.org/wiki/Somatotype_and_constitutional_psychology) and display it in diagram (Somatochart)
+You need to install:
+- Python
+- PyQt5
+- Numpy
+- Scipy
  
 ## Preview
 ### Input GUI
